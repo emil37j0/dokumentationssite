@@ -191,3 +191,58 @@ header nav a {
 }
 
 /*******OM SLUT*******/
+
+/****UNDERSIDE****/
+
+
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: [col1] 33% [col2] 33% [col3] 33%;
+    grid-gap: 10px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 6px;
+    border: solid 5px #5095BF;
+    margin: 0.5rem;
+    padding: 20px;
+
+}
+
+.container1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: [col1] 33% [col2] 33% [col3] 33%;
+    grid-gap: 10px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 6px;
+}
+
+.container1 .col {
+    border: solid 5px #5095BF;
+    margin: 0.5rem;
+    padding: 20px;
+}
+
+#underside .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+
+}
+
+/*#underside .col .col1 .col2 .col3 .col4 .col5 .col6 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 6;
+    flex-basis: 600px;
+    height: 300px;
+}*/
+
+
+.katinka {
+    width: 200px;
+    height: 300px;
+}
